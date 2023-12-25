@@ -24,36 +24,35 @@ The for function is used to take each line from the main file
 Write() is used to write the lines of main file to the empty file or to the directed file.
 
 ### PROGRAM:
-
+```
 with open("text.txt","r") as f1:
     data=f1.read()
 with open("data.txt","w") as f2:
     f2.write(data)
-
+```
 ### text file
-
+```
 with open("text.txt",'w')as fp:
   fp.write("Hello World")
   fp.write("\nWelcome to Python")
   fp.write("\nHave a Good Day")
-
+```
 ### empty file
-
+```
 with open("data.txt","w") as fd:
  fd.write("")
-
+```
 ### copy file
-
+```
 with open("data.txt","r") as f2:
   data1=f2.read()
   print(data)
-
+```
 ### OUTPUT:
 
-![Alt text](<Screenshot 2023-12-25 140032.png>)
+![Screenshot 2023-12-25 140032](https://github.com/feryjfgkuyfgewjfgew/copy-file/assets/150319377/6d1eb50c-0e2f-4419-9590-ab217b118be0)
 
-![Alt text](<Screenshot 2023-12-25 140053.png>)
-
+![Screenshot 2023-12-25 140053](https://github.com/feryjfgkuyfgewjfgew/copy-file/assets/150319377/5f212904-8dba-45d9-ac8c-38dccd746ec9)
 
 
 ```

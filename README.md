@@ -57,5 +57,5 @@ with open("data.txt","r") as f2:
 
 ```
 
-## RESULT:
+### RESULT:
 Thus the program is written to copy the contents from one file to another file.
